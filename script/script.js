@@ -1,5 +1,4 @@
 "use strict";
-//TODO: Get rid of repeated functions, condense into one function. Make Animal function. 
 
 //Creating the constructor function for the animal farm
 function Animal(animalType) {
@@ -21,17 +20,21 @@ Animal.prototype.render = function () {
 
 //Setting up the condensed function: 
 
+//Getting the element of the buttons
 let catButton = document.getElementById('makeCat');
 let dogButton = document.getElementById('makeDog');
 let sheepButton = document.getElementById('makeSheep');
 let horseButton = document.getElementById('makeHorse');
 
+
+//Creating makeAnimal function
 function makeAnimal(animal){
   let myAnimal = new Animal (animal);
 
   myAnimal.render();
 }
 
+//Calling eachfunction with listeners
 catButton.addEventListener('click', ()=>{
   let theAnimal = 'Cat';
 
