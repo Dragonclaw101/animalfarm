@@ -1,0 +1,107 @@
+h1{
+  text-align: center;
+  font-weight: bolder;
+}
+
+
+#farm{
+	display: flex;
+  flex-direction: row;
+	justify-content: space-evenly;
+	align-content: center;
+
+  font-weight: bold;
+}
+
+.make{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+		
+		
+  font-weight: bolder;
+  
+  padding: 10px;
+  height: 150px;
+  width: 150px;
+  
+  background-color: lightgray;
+  border: solid black 1px;
+  
+  margin: 10px;
+  
+  border-radius: 50%;
+  border-width: 2px;
+  /*margin:auto;*/
+  text-align: center;
+  
+
+  
+}
+.CatObject {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 10px;
+  height: 150px;
+  width: 150px;
+  background-color: lightyellow;
+  border: solid black 1px;
+  margin: 10px;
+  border-radius: 50%;
+  border-width: 2px;
+
+  text-align: center;
+}
+
+.DogObject{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 10px;
+  height: 150px;
+  width: 150px;
+  background-color: blue;
+  border: solid black 1px;
+  margin: 10px;
+  border-radius: 50%;
+  border-width: 2px;
+
+  text-align: center;
+}
+
+.SheepObject{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 10px;
+  height: 150px;
+  width: 150px;
+  background-color: red;
+  border: solid black 1px;
+  margin: 10px;
+  border-radius: 50%;
+  border-width: 2px;
+
+  text-align: center;
+}
+
+.HorseObject{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  padding: 10px;
+  height: 150px;
+  width: 150px;
+  background-color: green;
+  border: solid black 1px;
+  margin: 10px;
+  border-radius: 50%;
+  border-width: 2px;
+
+  text-align: center;
+}
